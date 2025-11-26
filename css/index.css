@@ -1,0 +1,82 @@
+/* General Page Styling */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #f4eea3, #a3d594);
+            color: #333;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: opacity 1s ease-in-out;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 3px;
+        }
+        
+        h3 {
+            font-size: 1.4em;
+            /*margin-bottom: 5px;*/
+        }
+
+        /* Button Styling */
+        .btn-fm {
+            background: #78560f;
+            /* background: #858076; */
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1.2em;
+            margin: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        
+        .btn-sm {
+            background: #1b6810;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1.2em;
+            margin: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn-fm:hover {
+            background: #513908;
+            transform: scale(1.1);
+        }
+        
+        .btn-sm:hover {
+            background: #254e0f;
+            transform: scale(1.1);
+        }
+
+        .fade-out {
+            opacity: 0;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h2 {
+                /*font-size: 1.5em;*/
+                font-size: 1.2em;
+            }
+            h3 {
+                /*font-size: 1.5em;*/
+                font-size: 1.0em;
+            }
+            .btn {
+                font-size: 1em;
+                padding: 10px 20px;
+            }
+
+        }
+
+
